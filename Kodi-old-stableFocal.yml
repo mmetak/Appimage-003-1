@@ -5,7 +5,7 @@ ingredients:
   packages:
     - kodi
     - kodi-x11
-    - libcurl3
+    - libcurl4
     - samba-libs
     - samba
     - libpcrecpp0v5
