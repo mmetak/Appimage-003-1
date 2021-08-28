@@ -4,7 +4,6 @@ union: true
 ingredients:
   packages:
     - kodi
-    - kodi-x11
     - libcurl4
     - samba-libs
     - samba
@@ -74,7 +73,7 @@ ingredients:
     - kodi-pvr-stalker
     - kodi-pvr-teleboy
     - kodi-pvr-vbox
-    - kodi-pvr-vdr-vnsi
+    #   - kodi-pvr-vdr-vnsi
     #   - kodi-pvr-vuplus
     #   - kodi-pvr-waipu
     - kodi-pvr-wmc
@@ -101,6 +100,7 @@ ingredients:
   dist: focal
   sources: 
     - deb http://archive.ubuntu.com/ubuntu/ focal main universe
+    - deb http://archive.ubuntu.com/ubuntu/ focal-updates main universe
   ppas:
     - team-xbmc/kodi-old
     - linux-schools/samba-latest
